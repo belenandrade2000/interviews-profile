@@ -136,3 +136,19 @@ p {
 a:visited {
     color: black;
 }
+
+@media screen and (max-width: 768px) {
+    header , .body-images , .me , .about-me {
+      flex-direction: column;
+      min-width: 100%;
+      flex: 1 0 100%;
+      justify-content: center;
+    }
+}
+@media screen and (max-width: 768px){
+    .projects {
+        min-width: 100%;
+    
+    }
+    
+}
